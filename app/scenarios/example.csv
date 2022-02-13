@@ -1,0 +1,7 @@
+goto,https://poczta.interia.pl/logowanie/
+3
+click,/html/body/div[3]/div[2]/button[3]
+sendkeys,kocham@pierogi.pl,//*[@id="email"]
+sendkeys,password,//*[@id="password"]
+click,//*[@id="sitebar"]/form/button
+source,Błędny e-mail lub hasło
